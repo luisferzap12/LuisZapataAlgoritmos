@@ -1,0 +1,21 @@
+/**
+ * @param {number[]} g  factores de codicia de cada niño
+ * @param {number[]} s  tamaños de las galletas disponibles
+ * @return {number}     número máximo de niños satisfechos
+ */
+var findContentChildren = function(g, s) {
+    g.sort((a, b) => a - b);
+    s.sort((a, b) => a - b);
+
+    let child = 0;
+    let cookie = 0;
+
+    while (child < g.length && cookie < s.length) {
+        if (s[cookie] >= g[child]) {
+            child++; // esta galleta satisface al niño actual, avanza al siguiente
+        }
+        cookie++; // esta galleta ya se usó o se descartó, no vuelve a probarse
+    }
+
+    return child;
+};

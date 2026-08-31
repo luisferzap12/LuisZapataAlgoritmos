@@ -1,0 +1,31 @@
+/**
+ * @param {number[]} bills
+ * @return {boolean}
+ */
+var lemonadeChange = function(bills) {
+    let five = 0;
+    let ten = 0;
+
+    for (const bill of bills) {
+        if (bill === 5) {
+            five++;
+        } else if (bill === 10) {
+            if (five === 0) return false;
+            five--;
+            ten++;
+        } else { // bill === 20
+            // Preferir dar 10 + 5 antes que 5 + 5 + 5,
+            // así se reservan los billetes de 5 (más versátiles)
+            if (ten > 0 && five > 0) {
+                ten--;
+                five--;
+            } else if (five >= 3) {
+                five -= 3;
+            } else {
+                return false;
+            }
+        }
+    }
+
+    return true;
+};
