@@ -7,11 +7,11 @@ grafos, programación dinámica, greedy y backtracking.
 
 | # | Familia | Problema | Código | Evidencia |
 |---|---|---|---|---|
-| 1 | Ordenamiento | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [`merge-intervals/merge-intervals.js`](./merge-intervals/merge-intervals.js) | [`evidencias/merge-intervals-accepted.png`](./evidencias/merge-intervals-accepted.png) |
-| 2 | Grafos | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [`number-of-islands/number-of-islands.js`](./number-of-islands/number-of-islands.js) | [`evidencias/number-of-islands-accepted.png`](./evidencias/number-of-islands-accepted.png) |
-| 3 | Programación dinámica | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [`longest-common-subsequence/longest-common-subsequence.js`](./longest-common-subsequence/longest-common-subsequence.js) | [`evidencias/longest-common-subsequence-accepted.png`](./evidencias/longest-common-subsequence-accepted.png) |
-| 4 | Greedy | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [`non-overlapping-intervals/non-overlapping-intervals.js`](./non-overlapping-intervals/non-overlapping-intervals.js) | [`evidencias/non-overlapping-intervals-accepted.png`](./evidencias/non-overlapping-intervals-accepted.png) |
-| 5 | Backtracking | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [`combination-sum/combination-sum.js`](./combination-sum/combination-sum.js) | [`evidencias/combination-sum-accepted.png`](./evidencias/combination-sum-accepted.png) |
+| 1 | Ordenamiento | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [`merge-intervals/merge-intervals.js`](./merge-intervals/merge-intervals.js) | [`evidencias/merge-intervals-accepted.jpg`](./evidencias/merge-intervals-accepted.jpg) |
+| 2 | Grafos | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [`number-of-islands/number-of-islands.js`](./number-of-islands/number-of-islands.js) | [`evidencias/number-of-islands-accepted.jpg`](./evidencias/number-of-islands-accepted.jpg) |
+| 3 | Programación dinámica | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [`longest-common-subsequence/longest-common-subsequence.js`](./longest-common-subsequence/longest-common-subsequence.js) | [`evidencias/longest-common-subsequence-accepted.jpg`](./evidencias/longest-common-subsequence-accepted.jpg) |
+| 4 | Greedy | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [`non-overlapping-intervals/non-overlapping-intervals.js`](./non-overlapping-intervals/non-overlapping-intervals.js) | [`evidencias/non-overlapping-intervals-accepted.jpg`](./evidencias/non-overlapping-intervals-accepted.jpg) |
+| 5 | Backtracking | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [`combination-sum/combination-sum.js`](./combination-sum/combination-sum.js) | [`evidencias/combination-sum-accepted.jpg`](./evidencias/combination-sum-accepted.jpg) |
 
 
 
@@ -31,7 +31,7 @@ Complejidad(con `n = intervals.length`):
  Tiempo: `O(n log n)` — dominado por el sort; la fusión es `O(n)`.
  Espacio: `O(n)` para la salida (más lo que use el sort internamente).
 
-![Accepted — Merge Intervals](evidencias/merge-intervals-accepted.png)
+![Accepted — Merge Intervals](evidencias/merge-intervals-accepted.jpg)
 
 
 
